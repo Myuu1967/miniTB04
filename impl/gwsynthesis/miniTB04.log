@@ -8,7 +8,6 @@ Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\min
 Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\mux7seg.v'
 Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\pc.v'
 Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\rom.v'
-Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\uart.v'
 Compiling module 'miniTB04sys'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v":1)
 Compiling module 'clkCtrl'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\clkCtrl.v":17)
 Compiling module 'pc'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\pc.v":3)
@@ -18,7 +17,6 @@ Compiling module 'alu'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\alu
 Compiling module 'miniTB04'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04.v":7)
 Compiling module 'drv7seg'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\drv7seg.v":1)
 Compiling module 'mux7seg'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\mux7seg.v":11)
-Compiling module 'uart_outi_tx'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\uart.v":5)
 NOTE  (EX0101) : Current top module is "miniTB04sys"
 [5%] Running netlist conversion ...
 Running device independent optimization ...

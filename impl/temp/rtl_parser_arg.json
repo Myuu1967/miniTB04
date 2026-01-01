@@ -32,10 +32,6 @@
   {
    "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/rom.v",
    "Type" : "verilog"
-  },
-  {
-   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/uart.v",
-   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

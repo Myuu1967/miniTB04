@@ -86,14 +86,6 @@
     "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/mux7seg.v",
     "ModuleLine" : 11,
     "ModuleName" : "mux7seg"
-   },
-   {
-    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
-    "InstLine" : 196,
-    "InstName" : "u_uart",
-    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/uart.v",
-    "ModuleLine" : 5,
-    "ModuleName" : "uart_outi_tx"
    }
   ]
  }

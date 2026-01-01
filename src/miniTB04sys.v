@@ -9,9 +9,9 @@ module miniTB04sys (
     output reg  [7:0]  led,
     output wire [7:0]  seg,
     output wire [3:0]  seg_dig,
-    output reg  [3:0]  portOUT,      // 実際に出力するポート
-    output wire        uart_tx,
-    output wire        uart_busy
+    output reg  [3:0]  portOUT      // 実際に出力するポート
+//    output wire        uart_tx,
+//    output wire        uart_busy
     );
 
     wire rst = ~nrst;
@@ -192,9 +192,9 @@ module miniTB04sys (
         end
     end
 
-    uart_outi_tx #(.CLK_HZ(12_000_000), .BAUD(115200)) 
-            u_uart (.clk(clk), .rst(rst), .tb04_clk(cpuCe), .wo(wo), .out_nib(out),
-                        .uart_tx(uart_tx), .uart_busy(uart_busy));
+//    uart_outi_tx #(.CLK_HZ(12_000_000), .BAUD(115200)) 
+//            u_uart (.clk(clk), .rst(rst), .tb04_clk(cpuCe), .wo(wo), .out_nib(out),
+//                        .uart_tx(uart_tx), .uart_busy(uart_busy));
 
 
 endmodule

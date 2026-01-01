@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="miniTB04sys" Register="7" Lut="7">
-    <SubModule name="uClkCtrl" Register="45" Lut="108"/>
+    <SubModule name="uClkCtrl" Register="45" Lut="101"/>
     <SubModule name="uPc" Register="11" Lut="18"/>
     <SubModule name="uRom" Register="6" Lut="10"/>
     <SubModule name="uAlu" Register="8" Alu="8" Lut="18"/>
     <SubModule name="uRegs" Register="12" Lut="3"/>
     <SubModule name="u7a" Lut="4"/>
-    <SubModule name="uMux" Register="26" Lut="78"/>
-    <SubModule name="u_uart" Register="69" Lut="98"/>
+    <SubModule name="uMux" Register="26" Lut="76"/>
 </Module>

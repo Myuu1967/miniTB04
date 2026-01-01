@@ -1,0 +1,49 @@
+{
+ "Device" : "GW1N-4B",
+ "Files" : [
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/clkCtrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/drv7seg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/mux7seg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/pc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/uart.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

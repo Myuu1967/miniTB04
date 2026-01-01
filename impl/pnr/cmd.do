@@ -1,0 +1,12 @@
+-d F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\impl\gwsynthesis\miniTB04.vg
+-p GW1N-4B-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04.cst
+-cfg F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

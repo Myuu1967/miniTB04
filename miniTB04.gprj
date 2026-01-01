@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-4B" pn="GW1N-UV4LQ144C6/I5">gw1n4b-030</Device>
+    <FileList>
+        <File path="src/alu.v" type="file.verilog" enable="1"/>
+        <File path="src/clkCtrl.v" type="file.verilog" enable="1"/>
+        <File path="src/drv7seg.v" type="file.verilog" enable="1"/>
+        <File path="src/miniTB04.v" type="file.verilog" enable="1"/>
+        <File path="src/miniTB04sys.v" type="file.verilog" enable="1"/>
+        <File path="src/mux7seg.v" type="file.verilog" enable="1"/>
+        <File path="src/pc.v" type="file.verilog" enable="1"/>
+        <File path="src/rom.v" type="file.verilog" enable="1"/>
+        <File path="src/uart.v" type="file.verilog" enable="1"/>
+        <File path="src/miniTB04.cst" type="file.cst" enable="1"/>
+        <File path="src/RAMEN.hex" type="file.other" enable="1"/>
+        <File path="src/ledFlow.hex" type="file.other" enable="1"/>
+        <File path="src/prog_byte.hex" type="file.other" enable="1"/>
+        <File path="src/uart_tx.hex" type="file.other" enable="1"/>
+    </FileList>
+</Project>

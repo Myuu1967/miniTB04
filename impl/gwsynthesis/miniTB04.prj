@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-4B" package="LQFP144" speed="6" partNumber="GW1N-UV4LQ144C6/I5"/>
+    <FileList>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\alu.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\clkCtrl.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\drv7seg.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\mux7seg.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\pc.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\rom.v" type="verilog"/>
+        <File path="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\uart.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\impl\gwsynthesis\miniTB04.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

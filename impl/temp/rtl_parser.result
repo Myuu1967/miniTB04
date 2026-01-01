@@ -1,0 +1,100 @@
+[
+ {
+  "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+  "InstLine" : 1,
+  "InstName" : "miniTB04sys",
+  "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "miniTB04sys",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 27,
+    "InstName" : "uClkCtrl",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/clkCtrl.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "clkCtrl"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 76,
+    "InstName" : "uPc",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/pc.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "pc"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 89,
+    "InstName" : "uRom",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/rom.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "rom"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 99,
+    "InstName" : "uAlu",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/alu.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "alu"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 116,
+    "InstName" : "uRegs",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "miniTB04"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 170,
+    "InstName" : "u7a",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/drv7seg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 171,
+    "InstName" : "u7b",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/drv7seg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 172,
+    "InstName" : "u7c",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/drv7seg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 173,
+    "InstName" : "u7d",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/drv7seg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "drv7seg"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 175,
+    "InstName" : "uMux",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/mux7seg.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "mux7seg"
+   },
+   {
+    "InstFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/miniTB04sys.v",
+    "InstLine" : 196,
+    "InstName" : "u_uart",
+    "ModuleFile" : "F:/@Tanuki_Bayashin/FPGA/TB-04/miniTB04/miniTB04/src/uart.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "uart_outi_tx"
+   }
+  ]
+ }
+]

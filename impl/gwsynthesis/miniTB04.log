@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\alu.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\clkCtrl.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\drv7seg.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\mux7seg.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\pc.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\rom.v'
+Analyzing Verilog file 'F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\uart.v'
+Compiling module 'miniTB04sys'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v":1)
+Compiling module 'clkCtrl'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\clkCtrl.v":17)
+Compiling module 'pc'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\pc.v":3)
+Compiling module 'rom'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\rom.v":6)
+Extracting RAM for identifier 'romMem'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\rom.v":14)
+Compiling module 'alu'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\alu.v":4)
+Compiling module 'miniTB04'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04.v":7)
+Compiling module 'drv7seg'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\drv7seg.v":1)
+Compiling module 'mux7seg'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\mux7seg.v":11)
+Compiling module 'uart_outi_tx'("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\uart.v":5)
+NOTE  (EX0101) : Current top module is "miniTB04sys"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "drv7seg" instantiated to "u7b" is swept in optimizing("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v":171)
+WARN  (NL0002) : The module "drv7seg" instantiated to "u7c" is swept in optimizing("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v":172)
+WARN  (NL0002) : The module "drv7seg" instantiated to "u7d" is swept in optimizing("F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\src\miniTB04sys.v":173)
+[95%] Generate netlist file "F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\impl\gwsynthesis\miniTB04.vg" completed
+[100%] Generate report file "F:\@Tanuki_Bayashin\FPGA\TB-04\miniTB04\miniTB04\impl\gwsynthesis\miniTB04_syn.rpt.html" completed
+GowinSynthesis finish

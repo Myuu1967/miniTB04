@@ -16,7 +16,7 @@ module rom (
     // init (simulation / some FPGA flows support ROM init)
 //    initial $readmemh("./src/uart_tx.hex", romMem);
 //    initial $readmemh("./src/prog_byte.hex", romMem);
-//    initial $readmemh("./src/RAMEN.hex", romMem);
+//    initial $readmemh("./src/RAMEN2.hex", romMem);
     initial $readmemh("./src/ledFlow.hex", romMem);
 
     // synchronous read (update only at fetch cycle)

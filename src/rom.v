@@ -14,10 +14,10 @@ module rom (
     (* rom_style = "block" *) reg [7:0] romMem [0:2047];
 
     // init (simulation / some FPGA flows support ROM init)
-//    initial $readmemh("./src/uart_tx.hex", romMem);
+    initial $readmemh("./src/uart_tx.hex", romMem);
 //    initial $readmemh("./src/prog_byte.hex", romMem);
 //    initial $readmemh("./src/RAMEN.hex", romMem);
-    initial $readmemh("./src/ledFlow.hex", romMem);
+//    initial $readmemh("./src/ledFlow.hex", romMem);
 
     // synchronous read (update only at fetch cycle)
     always @(posedge clk) begin
